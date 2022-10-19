@@ -1,0 +1,65 @@
+* {
+    background-color: antiquewhite;
+}
+
+.body {
+    background-color: antiquewhite;
+    width: 200vh;
+    height: 100vh;
+
+}
+
+.head1 {
+    text-align: center;
+    font-size: 34px;
+    color: crimson;
+
+}
+
+
+
+.backl {
+    font-size: medium;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.backl:hover {
+    color: green;
+    font-size: large;
+}
+
+
+.types1 {
+    font-size: 20px;
+    color: darkcyan;
+
+}
+
+
+.para {
+    text-indent: 100px;
+    font-family: 'Poppins', sans-serif;
+    color: blueviolet;
+    font-size: 20px;
+    font-family: "Poppins" sans-serif;
+}
+
+.con1 {
+    font: 40px bold;
+    color: rgb(63, 107, 109);
+    align-content: center;
+    margin-left: 30px;
+}
+
+.cond {
+    font-size: 22px;
+    color: rgb(42, 75, 75);
+    margin-left: 10px;
+    text-indent: 50px;
+}
+
+
+
+
+

@@ -1,0 +1,134 @@
+
+* {
+    background-color: rgb(244, 238, 228);
+}
+
+.video {
+    width: 600px;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-width: 3px;
+}
+
+.ref {
+    display: flex;
+    justify-content: space-around;
+}
+
+#wiki1 {
+    position: relative;
+}
+
+#wiki1:before {
+    content: attr(wikid);
+    opacity: 0;
+    visibility: hidden;
+    font-size: 15px;
+    width: max-content;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    left: 100;
+    top: 110%;
+}
+
+#wiki1:hover::before{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+#resg {
+    position: relative;
+}
+
+#resg:before {
+    content: attr(res);
+    opacity: 0;
+    visibility: hidden;
+    font-size: 15px;
+    width: max-content;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    left: 100;
+    top: 110%;
+}
+
+#resg:hover::before{
+    opacity: 1;
+    visibility: visible;
+}
+
+#stud1 {
+    position: relative;
+}
+
+.backb {
+    font-size: 25px; 
+    color: red;
+    text-decoration: none;
+    background-color: grey;
+}
+
+.backb:hover {
+    color: green;
+    font-size: 27px;
+}
+
+#stud1:before {
+    content: attr(stud);
+    opacity: 0;
+    visibility: hidden;
+    font-size: 15px;
+    width: max-content;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    left: 100;
+    top: 110%;
+}
+
+#stud1:hover::before{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.refer {
+    align-items: center;
+    text-align: center;
+    font-size: 34px;
+    text-decoration: none;
+}
+
+.refer:hover{
+    color: blue;
+}
+
+
+.main {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+

@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    width: 1200px;
+    margin-inline: auto;
+}
+
+.colc {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.colc:hover {
+    color: green;
+    font-size: 22px;
+    font-weight: 500px;
+}
+
+header {
+    background-color: #313552;
+    height: 150vh;
+    clip-path: polygon( 0 0, 100% 0, 100% 100%, 0 86%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-nav {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#contact {
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-weight: 900;
+    border: 3px solid transparent ;
+    outline: none;
+    color: #313552;
+    cursor: pointer;
+    background-color: bisque;
+    transition: all 0.4s ease-in-out;
+    font-size: 18px;
+}
+
+#contact:hover {
+    color: bisque;
+    background-color: #313552;
+    border: 3px solid bisque;
+    font-size: 20px;
+    
+
+}
+
+a {
+    color: beige;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+a :hover {
+    color: rgb(12, 244, 166);
+
+}
+
+#hero {
+    margin-inline: auto;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero-right {
+    text-align: right;
+    width: 500px;
+}
+
+
+#hero-right h6 {
+    color: #b8405e;
+}
+
+#hero-right h1 {
+    color: #2eb086;
+}
+
+#hero-right span {
+    color: whitesmoke;
+}
+
+.list {
+    text-align: left;
+    color: aliceblue;
+}
+
+.btn1 {
+    padding: 4px all;
+    font: 2em algeria;
+    color: #313552;
+    background-color: beige;
+    text-decoration: double;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 2px;
+    font-style: bold;
+    border: 2px solid transparent;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn1:hover {
+    cursor: pointer;
+    color: #2eb086;
+    background-color: #313552;
+    border-color: beige;
+    font-size: 32px;
+}
+
+.cent {
+    text-align: center;
+    text-decoration: solid;
+    font-size: 30px;
+}
+
